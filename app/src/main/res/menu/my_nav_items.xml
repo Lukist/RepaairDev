@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/home_icon"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Hub"
+            />
+
+        <item
+            android:id="@+id/add_product_icon"
+            android:icon="@drawable/baseline_add_to_queue_24"
+            android:title="añadir dispositivo"
+            />
+
+        <item
+            android:id="@+id/product_icon"
+            android:icon="@drawable/baseline_construction_24"
+            android:title="Dispositivo"
+            />
+    </group>
+
+
+
+
+</menu>

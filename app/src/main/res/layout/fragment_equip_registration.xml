@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.EquipRegistration">
+
+
+    <TextView
+        android:id="@+id/registro_serieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero de serie"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        />
+
+    <EditText
+        android:id="@+id/registro_seriaInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registro_serieTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:hint="2562451e"
+        android:textSize="25dp"
+        android:background="@drawable/text_field"
+        android:padding="7dp"
+
+        />
+
+    <TextView
+        android:id="@+id/registro_tipoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registro_seriaInput"
+        android:text="Tipo de electrodoméstico"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        />
+
+    <EditText
+        android:id="@+id/registro_tipoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registro_tipoTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:hint="Lavarropa / PC / etc"
+        android:textSize="25dp"
+        android:background="@drawable/text_field"
+        android:padding="7dp"
+        />
+
+    <TextView
+        android:id="@+id/registro_problemaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registro_tipoInput"
+        android:text="Problema"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        />
+
+    <EditText
+        android:id="@+id/registro_problemaInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registro_problemaTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:hint="Malfuncionamiento"
+        android:textSize="25dp"
+        android:background="@drawable/text_field"
+        android:padding="7dp"
+
+        />
+
+    <TextView
+        android:id="@+id/registro_telefonoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registro_problemaInput"
+        android:text="Telefono del cliente"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        />
+
+    <EditText
+        android:id="@+id/registro_telefonoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registro_telefonoTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:hint="3757-546879"
+        android:textSize="25dp"
+        android:background="@drawable/text_field"
+        android:padding="7dp"
+
+        />
+
+    <TextView
+        android:id="@+id/registro_tecnicoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registro_telefonoInput"
+        android:text="Tecnico"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        />
+
+    <EditText
+        android:id="@+id/registro_tecnicoInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registro_tecnicoTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:hint="Tecnico a cargo"
+        android:textSize="25dp"
+        android:background="@drawable/text_field"
+        android:padding="7dp"
+
+        />
+
+    <Button
+        android:id="@+id/registro_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Registrar"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/registro_tecnicoInput"
+        android:textColorHint="@color/mainWhite"
+        android:backgroundTint="@color/black"
+
+        />
+
+
+
+</RelativeLayout>
